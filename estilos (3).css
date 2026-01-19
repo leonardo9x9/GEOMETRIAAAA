@@ -1,0 +1,64 @@
+Body{
+    Background:#eaf4ff;
+    Font-family:Arial;
+    Margin:0;
+}
+
+Header img{
+    Width:100%;
+    Height:300px;
+}
+
+Nav{
+    Background:#1976d2;
+}
+
+Nav ul{
+    List-style:none;
+    Margin:0;
+    Padding:0;
+    Overflow:hidden;
+}
+
+Nav li{
+    Float:left;
+}
+
+Nav a{
+    Display:block;
+    Padding:15px 20px;
+    Color:white;
+    Text-decoration:none;
+}
+
+Nav a:hover{
+    Background:#0d47a1;
+}
+
+#contenedor{
+    Width:100%;
+    Overflow:hidden;
+}
+
+#contenido{
+    Width:70%;
+    Float:left;
+    Padding:20px;
+}
+
+#sidebar{
+    Width:25%;
+    Float:right;
+    Background:#ff9800;
+    Padding:15px;
+    Color:white;
+}
+
+Footer{
+    Clear:both;
+    Background:#000;
+    Color:white;
+    Text-align:center;
+    Padding:10px;
+}
+
